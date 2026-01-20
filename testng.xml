@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RestAssured API Test Suite">
+    <!-- Single test block for all tests -->
+    <test thread-count= "5" name="RestAssured API Tests">
+        <packages>
+            <!-- Run all classes with @Test under this package and sub-packages -->
+            <package name="com.api.tests.*"/>
+        </packages>
+    </test>
+</suite>
