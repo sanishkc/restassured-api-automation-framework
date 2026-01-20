@@ -1,6 +1,11 @@
 # .github/workflows/ci.yml
 name: RestAssured API Test Automation CI
 
+permissions:
+  contents: read
+  checks: write
+  issues: write
+
 on:
   push:
     branches:
