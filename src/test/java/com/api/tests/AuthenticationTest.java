@@ -64,7 +64,7 @@ public class AuthenticationTest extends BaseTest {
 		Assert.assertEquals(userLoginResponse.getType(), "Bearer");		
 	}
 	
-	@Test
+	@Test(description = "Verify user signup API")
 	public void verifyUserSignupTest() {
 		
 		// Generate a unique random email ID using UUID to avoid duplicate user conflicts
